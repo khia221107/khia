@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서해·인천권역 야간 출입 금지 탄원</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts (Inter & Noto Sans KR) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        /* Noto Sans KR을 기본 글꼴로, Inter를 보조로 사용 */
+        body {
+            font-family: 'Inter', 'Noto Sans KR', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        /* 히어로 섹션 배경 이미지 설정 */
+        .hero-bg {
+            /* [수정됨] 사용자가 제공한 GitHub 이미지 URL로 경로를 변경했습니다. */
+            background-image: url('https://raw.githubusercontent.com/khia221107/khia/refs/heads/main/image/1000020864.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+    <!-- 히어로 섹션 -->
+    <header class="hero-bg relative w-full min-h-[70vh] md:min-h-[80vh] flex flex-col items-center justify-center text-center p-4">
+        <!-- 어두운 오버레이 -->
+        <div class="absolute inset-0 bg-black/70"></div>
+        
+        <!-- 히어로 콘텐츠 -->
+        <div class="relative z-10 p-6 md:p-8 rounded-lg">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white mb-4 shadow-lg">
+                어둠 속의 바다, 우리의 권리는 어디에 있습니까?
+            </h1>
+            <p class="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                평택해양경찰서의 서해·인천권역 해역 야간 출입 금지 조치에 대한
+                탄원 서명을 촉구합니다.
+            </p>
+            <a href="#petition" class="mt-10 inline-block bg-white text-gray-900 font-bold py-3 px-8 rounded-md text-lg hover:bg-gray-200 transition duration-300 ease-in-out shadow-lg">
+                탄원 서명하기
+            </a>
+        </div>
+    </header>
+
+    <!-- 메인 콘텐츠 -->
+    <main class="max-w-4xl mx-auto p-6 md:p-10">
+
+        <!-- 문제 제기 섹션 -->
+        <section class="mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6 border-b-2 border-gray-700 pb-3">
+                무엇이 문제입니까?
+            </h2>
+            <div class="space-y-6 text-lg text-gray-300 leading-relaxed">
+                <p>
+                    최근 평택해양경찰서가 발표한 '서해·인천권역 해역 야간 출입 금지' 조치는
+                    수십 년간 바다를 삶의 터전으로 삼아온 어민들과 해양 레저 종사자들의 생계를
+                    정면으로 위협하고 있습니다.
+                </p>
+                <p>
+                    '안전'이라는 명분 하에 이루어진 이 조치는 현장의 목소리를 외면한 채,
+                    충분한 소통이나 현실적인 대안 검토 없이 일방적으로 결정되었습니다.
+                    이는 단순한 불편을 넘어, 생존권에 대한 심각한 침해입니다.
+                </EMBED>
+                <p>
+                    우리는 무조건적인 반대를 하는 것이 아닙니다. 안전 조치는 필요합니다.
+                    하지만 그 방식은 현장의 목소리를 반영하고, 모두가 상생할 수 있는
+                    합리적인 방향이어야 합니다.
+                </p>
+                <p class="font-bold text-white text-xl mt-6">
+                    일방적인 통제가 아닌, 실질적인 안전 대책과 상생 방안 마련을 촉구합니다.
+                    여러분의 목소리가 절실히 필요합니다.
+                </p>
+            </div>
+        </section>
+
+        <!-- 탄원 서명 섹션 -->
+        <section id="petition" class="bg-gray-800 p-6 md:p-10 rounded-lg shadow-2xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6 text-center">
+                탄원 서명에 동참하기
+            </h2>
+            <p class="text-center text-gray-400 mb-8 max-w-2xl mx-auto">
+                이 조치가 철회되고, 합리적인 대안이 마련될 수 있도록 힘을 모아주십시오.
+                여러분의 소중한 정보는 본 탄원 목적 외에는 절대 사용되지 않습니다.
+            </p>
+            
+            <!-- 서명 폼 -->
+            <form id="petition-form" class="space-y-6 max-w-lg mx-auto">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-300 mb-2">성명</label>
+                    <input type="text" id="name" name="name" required
+                           class="w-full p-3 rounded-md bg-gray-700 text-white border border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 placeholder-gray-500"
+                           placeholder="홍길동">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-300 mb-2">이메일 주소 (선택)</label>
+                    <input type="email" id="email" name="email"
+                           class="w-full p-3 rounded-md bg-gray-700 text-white border border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 placeholder-gray-500"
+                           placeholder="example@email.com">
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-300 mb-2">응원 및 반대 의견 (선택)</label>
+                    <textarea id="message" name="message" rows="4"
+                              class="w-full p-3 rounded-md bg-gray-700 text-white border border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 placeholder-gray-500"
+                              placeholder="여러분의 의견을 자유롭게 남겨주세요..."></textarea>
+                </div>
+                
+                <!-- 동의 체크박스 -->
+                <div class="flex items-center">
+                    <input id="agree" name="agree" type="checkbox" required
+                           class="h-5 w-5 rounded border-gray-600 bg-gray-700 text-blue-600 focus:ring-blue-500 cursor-pointer">
+                    <label for="agree" class="ml-3 block text-base text-gray-300">
+                        본 탄원의 취지에 동의하며 서명합니다.
+                    </label>
+                </div>
+                
+                <!-- 제출 버튼 -->
+                <div>
+                    <button type="submit"
+                            class="w-full bg-blue-700 text-white font-bold text-lg py-3 px-6 rounded-md hover:bg-blue-800 transition duration-300 ease-in-out transform hover:-translate-y-1 shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 focus:ring-offset-gray-800">
+                        탄원 서명 동의
+                    </button>
+                </div>
+            </form>
+            
+            <!-- 폼 제출 결과 메시지 영역 -->
+            <div id="form-message" class="mt-6 text-center text-lg"></div>
+        </section>
+
+    </main>
+
+    <!-- 푸터 -->
+    <footer class="bg-gray-950 text-gray-500 text-center p-8 mt-16">
+        <p class="text-sm">&copy; 2025 서해·인천권역 해역 야간 출입 금지 대책 위원회 (가칭)</p>
+        <p class="text-xs mt-1">본 웹사이트는 탄원 서명 촉구를 위해 제작되었습니다.</p>
+    </footer>
+
+    <!-- 폼 제출 처리 스크립트 -->
+    <script>
+        const form = document.getElementById('petition-form');
+        const messageDiv = document.getElementById('form-message');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // 실제 폼 전송 방지
+
+            const nameInput = document.getElementById('name');
+            const agreeCheckbox = document.getElementById('agree');
+            
+            // 이름 값 확인
+            const name = nameInput.value.trim();
+            if (!name) {
+                messageDiv.innerHTML = `<p class="text-red-400 font-bold">성명을 입력해주세요.</p>`;
+                nameInput.focus();
+                return;
+            }
+
+            // 동의 여부 확인
+            if (!agreeCheckbox.checked) {
+                messageDiv.innerHTML = `<p class="text-red-400 font-bold">탄원 취지에 동의해주셔야 서명이 가능합니다.</p>`;
+                agreeCheckbox.focus();
+                return;
+            }
+
+            // 성공 메시지 표시 (시뮬레이션)
+            // 'alert' 대신 'messageDiv'에 메시지 표시
+            messageDiv.innerHTML = `<p class="text-green-400 font-bold">${escapeHTML(name)}님, 소중한 의견 감사합니다. 서명이 완료되었습니다.</p>`;
+
+            // 폼 초기화
+            form.reset();
+
+            // 5초 후에 메시지 숨기기
+            setTimeout(() => {
+                messageDiv.innerHTML = '';
+            }, 5000);
+        });
+
+        // 간단한 HTML 이스케이프 함수 (XSS 방지)
+        function escapeHTML(str) {
+            return str.replace(/[&<>"']/g, function(match) {
+                return {
+                    '&': '&amp;',
+                    '<': '&lt;',
+                    '>': '&gt;',
+                    '"': '&quot;',
+                    "'": '&#39;'
+                }[match];
+            });
+        }
+    </script>
+
+</body>
+</html>
